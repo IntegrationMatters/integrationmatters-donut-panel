@@ -1,0 +1,26 @@
+{
+  "$schema": "https://raw.githubusercontent.com/grafana/grafana/master/docs/sources/developers/plugins/plugin.schema.json",
+  "type": "panel",
+  "name": "Donut Panel",
+  "id": "im-donut-panel",
+  "info": {
+    "description": "",
+    "author": {
+      "name": "Integration Matters",
+      "url": "https://www.integrationmatters.com/"
+    },
+    "keywords": [],
+    "logos": {
+      "small": "assets/images/logo.svg",
+      "large": "assets/images/logo.svg"
+    },
+    "links": [],
+    "screenshots": [],
+    "version": "%VERSION%",
+    "updated": "%TODAY%"
+  },
+  "dependencies": {
+    "grafanaDependency": ">=7.0.0",
+    "plugins": []
+  }
+}
