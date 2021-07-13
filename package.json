@@ -10,7 +10,7 @@
     "sign": "grafana-toolkit plugin:sign",
     "start": "yarn watch"
   },
-  "author": "Steffen Kowalski",
+  "author": "Integration Matters",
   "license": "Apache-2.0",
   "devDependencies": {
     "@grafana/data": "latest",
@@ -24,8 +24,10 @@
     "node": ">=14"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.35",
-    "@fortawesome/free-solid-svg-icons": "^5.15.3",
-    "@fortawesome/react-fontawesome": "^0.1.14"
+    "@fortawesome/fontawesome-common-types": "./fontawesome-common-types",
+    "@fortawesome/fontawesome-free": "./fontawesome-free",
+    "@fortawesome/fontawesome-svg-core": "./fontawesome-svg-core",
+    "@fortawesome/free-solid-svg-icons": "./free-solid-svg-icons",
+    "@fortawesome/react-fontawesome": "file:react-fontawesome"
   }
 }

@@ -1,8 +1,8 @@
 import { PanelProps } from '@grafana/data';
 import React from 'react';
-import { Styles } from '../../shared/helper/styles';
 import './Donut.scss';
 import { CircleGenerator } from './helper/circle-generator';
+import {Styles} from "./helper/styles";
 import { DonatOptions } from './types/donat-options';
 
 export const Donut: React.FC<PanelProps<DonatOptions>> = ({ width, height, data, options }) => {

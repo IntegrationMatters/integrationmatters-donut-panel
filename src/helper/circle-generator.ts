@@ -1,9 +1,9 @@
 import { DataFrame } from '@grafana/data';
-import { AbsoluteNumbers } from '../../../shared/helper/absolute-numbers';
-import { Percentages } from '../../../shared/helper/percentages';
-import { SeriesFilter } from '../../../shared/helper/series-filter';
-import { RefId } from '../../../shared/types/ref-id';
 import { DonutTemplate } from '../donut-template';
+import {RefId} from "../types/ref-id";
+import {AbsoluteNumbers} from "./absolute-numbers";
+import {Percentages} from "./percentages";
+import {SeriesFilter} from "./series-filter";
 
 export class CircleGenerator {
   private static QUERIES: readonly string[] = [

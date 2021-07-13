@@ -2,20 +2,28 @@
   "$schema": "https://raw.githubusercontent.com/grafana/grafana/master/docs/sources/developers/plugins/plugin.schema.json",
   "type": "panel",
   "name": "Donut Panel",
-  "id": "im-donut-panel",
+  "id": "integrationmatters-donut-panel",
   "info": {
     "description": "",
     "author": {
       "name": "Integration Matters",
       "url": "https://www.integrationmatters.com/"
     },
-    "keywords": [],
+    "keywords": [
+      "flows",
+      "donut"
+    ],
     "logos": {
       "small": "assets/images/logo.svg",
       "large": "assets/images/logo.svg"
     },
     "links": [],
-    "screenshots": [],
+    "screenshots": [
+      {
+        "name": "Donut overview",
+        "path": "assets/images/screenshot.png"
+      }
+    ],
     "version": "%VERSION%",
     "updated": "%TODAY%"
   },
