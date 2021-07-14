@@ -1,1 +1,1 @@
-export type TrendDirection = "positive" | "negative";
+export type TrendDirection = 'positive' | 'negative';
